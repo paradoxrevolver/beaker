@@ -1,0 +1,19 @@
+:root {
+
+}
+
+[data-theme^="dark"],
+[data-theme] [data-theme^="dark"] {
+  /* background default, low, medium, high, inverted constrasts */
+  --b:     #222634;
+  --b-l:   #2a3041;
+  --b-m:   #1c1c2f;
+  --b-h:   #141421;
+  --b-inv: #f2f2f2;
+
+  /* foreground low, medium, high, inverted contrasts */
+  --f-l:   #55a6f7;
+  --f-m:   #53d499;
+  --f-h:   #f2f2f2;
+  --f-inv: #1a1820;
+}

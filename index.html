@@ -1,15 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="dark">
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
-    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <title>beaker</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="themes.css" type="text/css">
+    <link rel="stylesheet" href="index.css" type="text/css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <div class="cover">
+      <div class="layout left">
+        <p>left column here</p>
+      </div>
+      <div class="layout top">
+        <p>top bar here</p>
+      </div>
+      <div class="layout center">
+        <canvas>Canvas is not supported on this device.</canvas>
+      </div>
+      <div class="layout right">
+        <p>right column here</p>
+      </div>
+    </div>
   </body>
+  <script src="canvas.js"></script>
 </html>

@@ -2,7 +2,7 @@
   "name": "beaker",
   "version": "0.1.0",
   "description": "an art program for the browser",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "electron ."
   },
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/paradoxrevolver/beaker.git"
   },
+  "keywords": [
+    "beaker",
+    "art",
+    "drawing",
+    "image",
+    "editor"
+  ],
   "author": "rubic, aka paradoxrevolver",
   "license": "ISC",
   "bugs": {
