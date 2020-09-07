@@ -1,7 +1,7 @@
 # beaker
 
 ### What is Beaker?
-An art program built in a browser. Intended to be a quick and efficient tool for drawing, spriting, and image editing.
+Beaker is an open source art program and image editing tool. It's designed to work in the browser or as a standalone desktop application.
 
 ### Background
-Project started on December 12th, 2019.
+Beaker was started on December 12th, 2019 by [rubic](https://twitter.com/paradoxrevolver)
