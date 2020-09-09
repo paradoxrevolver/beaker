@@ -1,3 +1,33 @@
-body {
-  
+html {
+    color: var(--f-h);
+    background-color: var(--b-l);
+}
+
+#menu-bar, 
+#left-col,
+#right-col, 
+#bottom-bar {
+    background-color: var(--b-m);
+}
+
+#menu-bar { grid-area: menu-bar; }
+#left-col { grid-area: left-col; }
+#main-col { grid-area: main-col; }
+#right-col { grid-area: right-col; }
+#bottom-bar { grid-area: bottom-bar; }
+
+/* APP LAYOUT */
+#grid {
+    display: grid;
+    grid: 
+        "menu-bar menu-bar menu-bar" 24px
+        "left-col main-col right-col" 1fr
+        "bottom-bar bottom-bar bottom-bar" 24px
+        / 180px 1fr 180px;
+}
+
+.page-cover {
+    display: block;
+    width: 100%;
+    height: 100vh;
 }

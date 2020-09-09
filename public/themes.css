@@ -1,0 +1,15 @@
+[data-theme^="dark"],
+[data-theme] [data-theme^="dark"] {
+  /* background default, low, medium, high, inverted contrasts */
+  --b:     #212c3c;
+  --b-l:   #2f3e53;
+  --b-m:   #212c3c;
+  --b-h:   #151c26;
+  --b-inv: #f2f2f2;
+
+  /* foreground low, medium, high, inverted contrasts */
+  --f-l:   #4d81e7;
+  --f-m:   #36cc84;
+  --f-h:   #f2f2f2;
+  --f-inv: #151c26;
+}
