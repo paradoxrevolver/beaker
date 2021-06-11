@@ -31,3 +31,7 @@ html {
     width: 100%;
     height: 100vh;
 }
+
+.image-link {
+    vertical-align: bottom;
+}
