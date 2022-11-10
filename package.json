@@ -33,7 +33,7 @@
     "copy-webpack-plugin": "^6.4.1",
     "cross-env": "^7.0.3",
     "css-loader": "^5.2.6",
-    "electron": "^11.4.8",
+    "electron": "^18.3.7",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.2",
     "style-loader": "^2.0.0",
